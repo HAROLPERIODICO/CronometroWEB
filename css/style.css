@@ -1,7 +1,7 @@
 /* RESET Y FUENTE */
 *    body {
-      background-color: #1e1e2f;
-      color: #fff;
+      background-color: #fff;
+      color: #1e1e2ff;
       font-family: 'Segoe UI', sans-serif;
       display: flex;
       flex-direction: column;
@@ -15,7 +15,10 @@
       font-size: 4em;
       margin: 20px 0;
     }
-
+       cronometro {
+      width: 80px;
+      height: 70px;
+    }
     .botones {
       display: flex;
       gap: 10px;
@@ -43,11 +46,11 @@
     }
 
       .logo-chm {
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  z-index: 100;
-}
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        z-index: 100;
+      }
 
     .logo-chm img {
       width: 50px;
